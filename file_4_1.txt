@@ -1,0 +1,14 @@
+my_list = [ ['X', 0, 1],
+            ['X', 0, 1],
+            ['X', 1, 1]]
+# for i in my_list:
+#     print(i) 
+
+check1 = (my_list[0][0] == my_list[0][1] == my_list[0][2]) 
+check2 = (my_list[0][0] == my_list[1][1] == my_list[2][2])
+check3 = (my_list[0][0] == my_list[1][0] == my_list[2][0])
+if check1 or check2 or check3:
+    print('yes')
+else:
+    print('no')
+
